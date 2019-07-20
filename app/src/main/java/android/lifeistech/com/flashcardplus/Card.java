@@ -4,15 +4,14 @@ public class Card {
     public int imageId;
     public String title;
     public String content;
-    public int likeNum;
+    public int likeNum=0;
 
     public String meaning;
 
-    public Card(int imageId,String title,String content,int likeNum,String meaning){
+    public Card(int imageId,String title,String content,String meaning){
         this.imageId=imageId;
         this.title=title;
         this.content=content;
-        this.likeNum=likeNum;
         this.meaning=meaning;
     }
 
